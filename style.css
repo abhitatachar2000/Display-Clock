@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+    background-image: url(./assets/imgs/background.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#date{
+    font-family: monospace;
+    font-size: 2rem;
+    color: white;
+    margin: 50px;
+    font-weight: bold;
+}
+
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-align: center;
+    color: white;
+}
